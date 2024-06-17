@@ -50,6 +50,6 @@ function getTotalSupply() {
 mintNFT("Arjit Singh",37, "25 April 1987", "India", "Phir Mohabbat", "Tum hi ho", 107);
 mintNFT("Justin Bieber",30, "1 March 1994", "USA", "Baby", "One Time",379);
 mintNFT("Ellie Goulding",37,"30 December 1986","United Kindom","Starrey Eyed", "First Time",35);
-mintNFT("Jubin Nautiyal",34, "14 June 1989", "India", "EK Mulaqat","EK Mulaqat",3);
+mintNFT("Jubin Nautiyal",35, "14 June 1989", "India", "EK Mulaqat","EK Mulaqat",3);
 listNFTs();
 getTotalSupply();
