@@ -13,7 +13,7 @@ let NFTContainer = [];
 // this function will take in some values as parameters, create an
 // NFT object using the parameters passed to it for its metadata, 
 // and store it in the variable above.
-function mintNFT (name , age , dob, place, firstHit,viralHit ,charge) {
+function mintNFT (name , age , dob, place, firstHit,viralHit ,totalAward) {
     let NFT = {
         name: name,
         age: age,
