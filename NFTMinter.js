@@ -21,7 +21,7 @@ function mintNFT (name , age , dob, place, firstHit,viralHit ,charge) {
         place: place,
         firstHit :firstHit ,
         viralHit: viralHit ,
-        charge: charge,
+        totalAward: totalAward,
     }
     NFTContainer.push(NFT);
 
@@ -37,7 +37,7 @@ function listNFTs () {
         console.log("Place: " + NFTContainer[i].place);
         console.log("FirstHit : " + NFTContainer[i].firstHit);
         console.log("ViralHit : " + NFTContainer[i].viralHit);
-        console.log("Charge: " + NFTContainer[i].charge);
+        console.log("TotalAward: " + NFTContainer[i].totalAward);
         console.log("\n\n_____________________	🎵🎵🎵🎵🎵_________________________\n" );
     }
 }
@@ -47,9 +47,9 @@ function getTotalSupply() {
 }
 
 // call your functions below this line
-mintNFT("Arjit Singh",37, "25 April 1987", "India", "Phir Mohabbat", "Tum hi ho", 50000000);
-mintNFT("Justin Bieber",30, "1 March 1994", "USA", "Baby", "One Time",100000000);
-mintNFT("Ellie Goulding",37,"30 December 1986","United Kindom","Starrey Eyed", "First Time",$370,000);
-mintNFT("Jubin Nautiyal",34, "14 June 1989", "India", "EK Mulaqat","EK Mulaqat",250000);
+mintNFT("Arjit Singh",37, "25 April 1987", "India", "Phir Mohabbat", "Tum hi ho", 107);
+mintNFT("Justin Bieber",30, "1 March 1994", "USA", "Baby", "One Time",379);
+mintNFT("Ellie Goulding",37,"30 December 1986","United Kindom","Starrey Eyed", "First Time",35);
+mintNFT("Jubin Nautiyal",34, "14 June 1989", "India", "EK Mulaqat","EK Mulaqat",3);
 listNFTs();
 getTotalSupply();
